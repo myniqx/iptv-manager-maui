@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="iptv_manager_maui.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:iptv_manager_maui"
+    Shell.FlyoutBehavior="Disabled"
+    Title="iptv_manager_maui">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:UIPage}"
+        Route="UIPage" />
+
+</Shell>
