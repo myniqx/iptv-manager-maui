@@ -68,6 +68,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Content Include="ui\.prettierrc.json" />
+	  <Content Include="ui\package.json" />
+	  <Content Include="ui\public\favicon.ico" />
+	  <Content Include="ui\public\index.html" />
+	  <Content Include="ui\public\logo192.png" />
+	  <Content Include="ui\public\logo512.png" />
+	  <Content Include="ui\public\manifest.json" />
+	  <Content Include="ui\public\robots.txt" />
+	  <Content Include="ui\tsconfig.json" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Downloader" Version="3.1.2" />
 		<PackageReference Include="EmbedIO" Version="3.5.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.61" />
@@ -113,6 +125,35 @@
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
 	    <Version>8.0.7</Version>
 	  </PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="ui\.gitignore" />
+	  <None Include="ui\eslint.config.mjs" />
+	  <None Include="ui\README.md" />
+	  <None Include="ui\src\App.tsx" />
+	  <None Include="ui\src\components\BorderBox\BorderBox.tsx" />
+	  <None Include="ui\src\components\EntityView\EntityView.tsx" />
+	  <None Include="ui\src\components\HorizontalGroup\HorizontalGroup.tsx" />
+	  <None Include="ui\src\components\LeftMenu\LeftMenu.tsx" />
+	  <None Include="ui\src\components\NavBar\NavBar.tsx" />
+	  <None Include="ui\src\components\Profile\AddProfile.tsx" />
+	  <None Include="ui\src\components\Profile\Options.tsx" />
+	  <None Include="ui\src\components\Profile\Profiles.tsx" />
+	  <None Include="ui\src\components\Providers\ChakraProvider.tsx" />
+	  <None Include="ui\src\components\Providers\ProfileProvider.tsx" />
+	  <None Include="ui\src\components\Providers\Providers.tsx" />
+	  <None Include="ui\src\constants\getLocalApiAddress.ts" />
+	  <None Include="ui\src\hooks\usePreference.tsx" />
+	  <None Include="ui\src\hooks\useSSE.tsx" />
+	  <None Include="ui\src\index.tsx" />
+	  <None Include="ui\src\layouts\MainLayout\MainLayout.tsx" />
+	  <None Include="ui\src\pages\MainPage.tsx" />
+	  <None Include="ui\src\pages\ProfilesPage.tsx" />
+	  <None Include="ui\src\react-app-env.d.ts" />
+	  <None Include="ui\src\reportWebVitals.ts" />
+	  <None Include="ui\src\utils\isUrl.ts" />
+	  <None Include="ui\yarn.lock" />
 	</ItemGroup>
 
 </Project>
